@@ -253,7 +253,7 @@ int main()
         23, 0, 0, //ret
     };
 
-    FILE* outfile = fopen("test.txt", "wb");
+    FILE* outfile = fopen("../example/binary", "wb");
     if (!outfile)
     {
         exit(-1);

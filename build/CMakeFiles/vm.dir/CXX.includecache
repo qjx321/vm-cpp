@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/yiqiu/github/vm-cpp/include/instruct.h
+cstdint
+-
+
+/home/yiqiu/github/vm-cpp/include/vm.h
+array
+-
+cstdint
+-
+cstdio
+-
+cerrno
+-
+cstdlib
+-
+instruct.h
+/home/yiqiu/github/vm-cpp/include/instruct.h
+iostream
+-
+
+/home/yiqiu/github/vm-cpp/src/vm.cpp
+../include/vm.h
+/home/yiqiu/github/vm-cpp/include/vm.h
+iostream
+-
+

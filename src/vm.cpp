@@ -4,7 +4,7 @@
 
 int main()
 {
-    char* filename = (char*)"test.txt";
+    char* filename = (char*)"../example/binary";
     VM vm(filename);
     Instruct instruct;
 

@@ -1,0 +1,4 @@
+/home/yiqiu/github/vm-cpp/build/CMakeFiles/rebuild_cache.dir
+/home/yiqiu/github/vm-cpp/build/CMakeFiles/edit_cache.dir
+/home/yiqiu/github/vm-cpp/build/CMakeFiles/translate.dir
+/home/yiqiu/github/vm-cpp/build/CMakeFiles/vm.dir
