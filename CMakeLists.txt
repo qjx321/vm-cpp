@@ -17,3 +17,8 @@ add_executable(translate
     src/translate.cpp 
 )
 
+project(hello)
+
+add_executable(hello
+    src/hello.cpp 
+)

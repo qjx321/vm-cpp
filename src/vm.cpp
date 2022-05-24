@@ -2,9 +2,16 @@
 
 #include<iostream>
 
-int main()
+int main(int argc, char* argv[])
 {
-    char* filename = (char*)"../example/binary";
+
+    if(argc < 2)
+    {
+        cerr << "Please specify a binary" << endl;
+        exit(-1);
+    }
+
+    char* filename = argv[1];
     VM vm(filename);
     Instruct instruct;
 
